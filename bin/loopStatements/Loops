@@ -1,0 +1,21 @@
+What is loop : Loop allows to run certain piece of code multiple times
+Ex:
+read 100 rows from excel
+fetch 500 records from database
+For loop:
+for(initialize;condition;increment/decrement)
+{
+code/logic
+}
+
+while loop:
+will executes if condition is true
+while(condition)
+{
+logic
+increment/decrement
+
+}
+
+Do while Loop
+java1.5 added Enhanced for loop/For each loop

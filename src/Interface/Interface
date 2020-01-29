@@ -1,0 +1,8 @@
+1. An interface can extend another interface in the same way that a class can extend another class.
+The "extends" keyword is used to extend an interface, and the child interface inherits the methods of the parent interface.
+
+2. What is Interface?
+An interface is a reference type in Java. It is similar to class. It is a collection of abstract methods.
+ A class implements an interface, thereby inheriting the abstract methods of the interface. Along with abstract methods,
+ an interface may also contain constants, default methods, static methods, and nested types.
+ 

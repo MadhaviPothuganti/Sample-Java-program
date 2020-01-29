@@ -1,0 +1,24 @@
+Agenda:
+1. What is MAP and Hashmap
+2. Create and add values Hashmap
+3. Retrieve the values from hashmap
+
+NOTE: used in cucumber framework
+
+==What is Map in Java=====
+1. Map is a Interface in Java
+2. Map Contains Key and Value pair
+3. Each key and Value called as Entry
+4. Map contains only unique keys
+5. Map is easy to use if you have to search,update or delete elements on the basis of key 
+
+===== Examples  ======
+Search Students based on their roll number.
+Fetch Customer details from DB based on their customer id and so on
+https://docs.oracle.com/javase/7/docs/api/java/util/HashMap.html
+
+=====Hashmap============
+1. Java HashMap Class which implements the map interface
+2. A hashMap also contains values based on the key and only unique elements
+3. It may have "one null key" and multiple null values
+4. It does not store values in order

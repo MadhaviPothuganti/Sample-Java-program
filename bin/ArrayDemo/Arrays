@@ -1,0 +1,16 @@
+What is Array: Array is a collection of similar data type
+Ex:  Array  of integer,Array of String, Array of char, array of double ..etc
+
+How to create Arrays:
+Single dimension Array Synatx:
+datatype arrayname[] = new datatype[size];
+int arr[] = new int[3];
+arr[0] = 0;
+arr[1] = 1;
+arr[2] = 2;
+*Limitation of arrays :
+		 * Cannot change the size dynamically , its fixed
+		 * Cannot change the array type once defined
+
+How to retrieve value from array.
+2 D array

@@ -1,0 +1,57 @@
+Agenda:
+Conditional statements/Decision making statements
+if
+if else
+if else if
+switch
+==>Conditional/Decision statement<==
+It gives the power to take decision when to execute and what to be done if condition true
+Example:
+1.Fetch the database record of database connection successful
+2. Run test case if bowser does not equals to null
+3. Fetch records if excel file exist
+
+if(Boolean_expression1)
+{
+//Execute if the boolean expression 1 is true
+}
+else if(Boolean_expression2)
+{
+//Execute if the boolean expression 2 is true
+}
+else if(Boolean_expression3)
+{
+//Execute if the boolean expression 3 is true
+}
+else 
+{
+//Execute when non of the above condition is true
+}
+
+
+Switch:
+
+=> It allows you match with multiple cases
+switch(expression)
+{
+case value:
+//code here
+break;
+case value:
+//code here
+break;
+//you can have any number of case statements.
+
+default:
+}
+
+=>Data type should be same for comparison
+=>We can have multiple cases
+=> we can use only Integers String and Enums
+=>Break is optional but if not provided it will check all cases till the end
+=>Default is optional
+
+
+
+
+

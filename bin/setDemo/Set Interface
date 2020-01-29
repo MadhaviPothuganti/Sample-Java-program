@@ -1,0 +1,27 @@
+   ==== Agenda=====
+What is Set and LinkedSet, hashSet, TreeSet
+How to write Set
+Get values from Set
+Operations performed using Set
+Convert Set into List
+Where we can use this concept in Selenium
+
+
+What is Set:
+1. Set in Interface in java which  extends Collection interface.
+2. Set Does not allow duplicates values
+3. Set is unorderd collection
+4. Can't access the data using index
+
+
+===Hash Set====
+1. HashSet stores the elements by using a mechanism called hashinh.
+It means we cannot access using index.
+
+2. Hash set contains unique elements only.
+
+===LinkedhashSet=======
+It is similer to HashSet but it maintains insertion order.
+
+====TreeSet=====
+1. It maintains ascending order.

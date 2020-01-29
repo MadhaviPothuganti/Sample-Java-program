@@ -1,0 +1,35 @@
+What is the need of ArrayList why cant we use Array
+=>Limitations of Array
+ --Data Type--Fixed
+ --Size - Fixed Size
+
+What is List and ArrayList
+How to write List
+Get values from ArrayList
+Some operation on List
+What is Generic in Collection
+
+          :What is collection: 
+It is Dynamic Data Structure,it added after java 1.5, 
+currently we are using java 8
+
+==>Collection in java is a framework that provides an architecture to store and manipulate the group of objects.
+==>all the operations that you perform on a data such as searching,sorting,insertion,manipulation,deletion ..etc can be perform by java collections
+==> Java  Collection simply means a single unit of objects.
+==> Java Collection Framework provides many interfaces(Set,List, Queue,HashSet,LinkedHashSet,TreeSet etc).
+
+
+======>What is List and ArrayList<=========
+List=> List is an Interface
+ArrayList=> ArrayList is a class and implements List
+Java ArrayList class uses a dynamic array for storing /sorting the values
+Java ArrayList class can contain duplicate elements
+Java Array List class maintains the insertion order
+ArrayList allows random access because array works at the index basis
+In ArrayList class, Manipulation is slow because lot of shifting needs to be occured if any element is removed from the ArrayList
+
+List/ArrayList comes from Java.util
+java.lang.Object
+     java.util.AbstractCollection<E>
+           java.util.AbstractList<E>
+                 java.util.ArrayList<E>

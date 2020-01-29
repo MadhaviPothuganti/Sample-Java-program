@@ -1,0 +1,56 @@
+===Agenda===
+1.What is Exception
+2. What is Exception handling
+3. Hierarchy of java Exception Classes
+4.Types of Exception
+
+=====Waht is Exception=====
+1. in plain English, Exception is abnormal condition
+2. In java also Exception is abnormal scenario which will stop the execution of current program
+3. In technical words Exception is a class
+
+==== What is Exception handling====
+ 1. Exception handling is a way to handle runtime/compile time errors such as
+ IOException,ArthematicException and ..etc.
+ 2. Main reason of exception handling is to maintain the normal flow of the application.
+ 
+ 
+===Types of Exception===
+
+1. Check Exception:- Checked Exceptions are checked at compile time
+2. Unchecked Exception - Unchecked exceptions are not checked at compile-time rather they are checked at runtime
+3. Error - Error is irrecoverable
+Ex: OutOfMemoryError, VirtualMachineError, AssertionError ..etc
+
+====How to handle exception====
+Try-Catch block : Java try block is used to enclose the code that might throw an exception.It must be use within the method.
+Java try block must be followed by either catch or finally block.
+
+Try{
+//code that may throw exception
+}catch(Exception_class_name ref)
+{
+}
+
+java.lang.Object
+   java.lang.Throwable
+        java.lang.Exception
+             java.lang.RuntimeException
+                    java.lang.ArithmeticException
+                    
+   Finally{
+   }
+   this block of code is executed irrespective of the exception or not
+   This is mandatory to use when working with file handling and database connection to close  once use of files and database
+=> dead code is the code which will never get executed  
+ in catch if we mention (Exception e) , then arithmetic , then child classes never get executed
+
+ 
+ =======Throws Keyword=========
+ 
+ =>The java keyword is used to declare an exception
+ =>It gives an information to the programmer that there may occur an Exception so it is better for the programmer to provide the exception
+ exception handling code so that normal flow can be maintained.
+ =>Exception handling is mainly used to handle the checked  exceptions
+ 
+ 

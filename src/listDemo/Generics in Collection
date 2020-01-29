@@ -1,0 +1,9 @@
+1. Java new generic collection allows you to have only one type of object in collection.
+Now it is type safe  so type-casting is not required at run time
+    Non-generic arraylist
+    ArrayList al = new ArrayList();
+ 
+2. Generic example of creating Java
+    ArrayList<string> al = new ArrayList<string>();
+    
+ In generic collection, we specify the type in angular braces. Now ArrayList is forced to have only specified type of objects in it. If you try to add another type of object, it gives compile time error. 
